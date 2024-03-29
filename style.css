@@ -1,0 +1,63 @@
+@charset "UTF8";
+@font-face {
+    font-family: "android"; src: url(../fontes/idroid.otf) format(opentype); font-weight: normal;
+}
+*{
+    padding: 0px;
+    margin: 0%;
+}
+body{ background-color:#3D7A49 ;}
+
+main p{ margin:20px 0px;
+text-indent: 20px;
+line-height:2em;}
+
+header{
+    color: white;
+    background-image:linear-gradient( to right, rgba(2, 211, 2, 0.74), rgba(4, 145, 4, 0.753), rgba(0, 104, 0, 0.678), rgb(0, 56, 0));
+    text-align: center;
+    padding: 20px;
+    
+}
+header p { margin-top: 25px;
+    width: 500px;
+    margin: auto; margin-top: 20px;
+    text-align: center;}
+nav {
+    background-color: #2b7235;
+    padding: 10px;
+
+}
+nav> a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+}
+
+nav> a:hover{ background-color: aqua;}
+
+main{
+    margin: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+main > article> img{
+
+
+width: 100%;
+}
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 2;
+}
+div.video{ width: 100%;}
+
+
