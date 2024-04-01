@@ -48,11 +48,24 @@ main{
     text-align: justify;
 }
 
+ p >strong{
+    color: rgb(4, 73, 4);
+ }
+ article > p> a {
+    text-decoration: none;
+    background-color: rgba(119, 253, 119, 0.884);
+    color: white;
+    transition-duration: 0.4s;
+ }
+ p> a:hover{
+    background-color: #2b7235;
+    color: aqua;
+    border-radius: 20px;
+ }
 main > article> img{
-
-
 width: 100%;
 }
+
 ul {
     list-style-type: none;
     list-style-position: inside;
@@ -60,4 +73,21 @@ ul {
 }
 div.video{ width: 100%;}
 
-
+aside{
+    background-color: #08a81d85;
+    border-radius: 10px 10px 0px 0px;
+}
+aside> h3{
+    background-color: rgb(10, 61, 10);
+    border-radius: 10px 10px 0px 0px;
+}
+aside> p> a{
+    background-color: rgba(119, 253, 119, 0.884);
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+aside> p> a:hover{
+    color: aqua;
+    background-color: #2b7235;
+    border-radius: 20px;
+}
